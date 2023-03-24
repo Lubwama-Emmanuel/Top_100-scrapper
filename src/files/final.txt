@@ -1,0 +1,24 @@
+{"Names":"SaraAlexandre","Business_Name":"CRH Americas Inc.","Address":"Atlanta","Phone_Number":""}
+{"Names":"JoshuaG.","Business_Name":"J.G. Davis & Associates, LLC","Address":"Atlanta","Phone_Number":"(202) 446-8854"}
+{"Names":"GeraldT.","Business_Name":"Fox Rothschild LLP - Atlanta","Address":"Atlanta","Phone_Number":"(404) 962-1012"}
+{"Names":"MaiaJ.","Business_Name":"Lawrence & Bundy, LLC","Address":"Atlanta","Phone_Number":"(404) 400-3346"}
+{"Names":"DashA.","Business_Name":"United States Attorney's Office","Address":"Atlanta","Phone_Number":"(404) 581-6240"}
+{"Names":"DanielReshod","Business_Name":"Law Office of Daniel R Crumby LLC","Address":"Atlanta","Phone_Number":"(404) 439-9229"}
+{"Names":"KaylaJ.","Business_Name":"Esquire Litigation Group - Atlanta","Address":"Atlanta","Phone_Number":"(770) 815-9310"}
+{"Names":"MyaJ.","Business_Name":"The Awe Law Firm","Address":"Atlanta","Phone_Number":"(470) 399-7617"}
+{"Names":"JoannaG.","Business_Name":"J. G. Boyd Law, LLC","Address":"Atlanta","Phone_Number":"(678) 343-2639"}
+{"Names":"JamieA.","Business_Name":"Jamie Ballard Law","Address":"Atlanta","Phone_Number":"404-301-1687"}
+{"Names":"CoryC.","Business_Name":"Baker & Hostetler LLP - Atlanta","Address":"Atlanta","Phone_Number":"(404) 946-9830"}
+{"Names":"N. JohnBey","Business_Name":"Bey & Associates, LLC - Atlanta","Address":"Atlanta","Phone_Number":"(404) 344-4448"}
+{"Names":"MartaP.","Business_Name":"Interface, Inc.","Address":"Atlanta","Phone_Number":"(470) 816-9721"}
+{"Names":"SherylL.","Business_Name":"Law Office of Sheryl Burke","Address":"Atlanta","Phone_Number":"(404) 842-7838"}
+{"Names":"SakiaM.","Business_Name":"Troutman Pepper LLP - Atlanta","Address":"Atlanta","Phone_Number":"(404) 885-3479"}
+{"Names":"LynnBlasingame Olmert","Business_Name":"McAngus Goudelock & Courie LLC - Atlanta","Address":"Atlanta","Phone_Number":"(678) 500-7316"}
+{"Names":"RobertJ.","Business_Name":"Parker Poe Adams & Bernstein LLP- Atlanta","Address":"Atlanta","Phone_Number":"(678) 690-5716"}
+{"Names":"D'AsiaM.","Business_Name":"Lewis Brisbois Bisgaard & Smith LLP - Atlanta","Address":"Atlanta","Phone_Number":"(404) 476-2000"}
+{"Names":"HebaA.","Business_Name":"Ogletree, Deakins, Nash, Smoak & Stewart, P.C. - Atlanta","Address":"Atlanta","Phone_Number":"404-260-0653"}
+{"Names":"CorettaCatlin","Business_Name":"U.S. Department of Education's Office of Civil Rights","Address":"Atlanta","Phone_Number":"202-987-1880"}
+{"Names":"AnthonyBaker","Business_Name":"Atlanta's John Marshall Law School","Address":"Atlanta","Phone_Number":"(678) 916-2645"}
+{"Names":"CheriseChallenger","Business_Name":"Challenger Law Group, LLC","Address":"Atlanta","Phone_Number":"(404) 254-1240"}
+{"Names":"BrandonD.","Business_Name":"Greenberg Traurig, LLP - Atlanta","Address":"Atlanta","Phone_Number":"(678) 553-2177"}
+{"Names":"JoshuaCombs","Business_Name":"Troutman Pepper LLP - Atlanta","Address":"Atlanta","Phone_Number":"(404) 885-3434"}
