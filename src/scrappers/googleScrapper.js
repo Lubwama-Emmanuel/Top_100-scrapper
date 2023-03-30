@@ -39,7 +39,7 @@ exports.puppetFunction = (req, res) => {
       await page.goto("https://nbltop100.org/region/atlanta/");
       console.log("Started");
 
-      const items = await scrapeInfiniteScrollItems(page, 93);
+      const items = await scrapeInfiniteScrollItems(page, 90);
 
       console.log(items);
 
