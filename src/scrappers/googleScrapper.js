@@ -50,7 +50,9 @@ exports.puppetFunction = (req, res) => {
       await browser.close();
     })();
 
-    res.send("WE finished");
+    res.send(
+      "Hey🤚, no worries just running a small script on your pc, Thanks😊"
+    );
   } catch (error) {
     console.log("An error occured", error);
   }
