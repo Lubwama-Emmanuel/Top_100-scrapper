@@ -1,20 +1,47 @@
-const axios = require("axios");
-const cheerio = require("cheerio");
-const { matchLink } = require("../../matchLink");
+const pt = require("puppeteer");
+const fs = require("fs");
 const { appendToFile } = require("../helpers/createFile");
 
-const googleScrapper = async () => {
-  const url = "https://nbltop100.org/region/atlanta/";
-  const request = await axios.get(url);
-  const html = request.data;
+const scrapeInfiniteScrollItems = async (page, itemTargetCount) => {
+  let items = [];
 
-  const $ = cheerio.load(html);
+  while (itemTargetCount > items.length) {
+    items = await page.evaluate(() => {
+      const items = Array.from(
+        document.querySelectorAll(
+          "#_dynamic_list-11-1724843 > .ct-div-block > a"
+        )
+      );
+      return items.map((item) => item.getAttribute("href"));
+    });
 
-  $("a").each(function () {
-    const link = $(this).attr("href");
-    const value = matchLink(link)
-    appendToFile("output.txt", value)
-  });
+    previousHeight = await page.evaluate("document.body.scrollHeight");
+    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)");
+    await page.waitForFunction(
+      `document.body.scrollHeight > ${previousHeight}`
+    );
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+  }
+
+  // console.log(items);
+  return items;
 };
 
-googleScrapper();
+(async () => {
+  const browser = await pt.launch({
+    headless: false,
+  });
+  const page = await browser.newPage();
+
+  await page.goto("https://nbltop100.org/region/atlanta/");
+
+  const items = await scrapeInfiniteScrollItems(page, 75);
+
+  console.log(items);
+
+  for (const item of items) {
+    appendToFile("../files/output.txt", item);
+  }
+
+  await browser.close();
+})();
